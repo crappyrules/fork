@@ -29,7 +29,7 @@
           <p>These are the minimum changes you need to make in order to create a TRTL fork. This is suitable for making a TRTL testnet, for example.</p>
           <p>
             <em>
-          Change the following blocks of code to suit your fork's parameters.    
+          Change the following blocks of code to suit your fork's parameters.
             </em>
           </p>
 
@@ -91,7 +91,7 @@
       </div>
 
       <br />
-      
+
       <div class="row">
         <div class="col">
           <h1 class="display-4">Fully Custom Network</h1>
@@ -99,7 +99,7 @@
           <p>This is the full set of changes you make to create your own basic fork of the TurtleCoin code. When we finish this section, you'll have a complete rebrand of TurtleCoin with your own name on it.</p>
           <p>
             <em>
-          Change the following blocks of code to suit your fork's parameters.    
+          Change the following blocks of code to suit your fork's parameters.
             </em>
           </p>
         </div>
@@ -118,7 +118,7 @@
   // Copyright (c) 2014-2018, The Monero Project
   // Copyright (c) 2018, The TurtleCoin Developers
   // Copyright (c) 2018, YOUR NAME GOES HERE
-  // 
+  //
   // Please see the included LICENSE file for more information.</code>
                 </pre>
             </div>
@@ -154,7 +154,41 @@
       </div>
 
       <br />
-      
+
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-header">
+              <code>src/config/Ascii.h</code>&nbsp;&nbsp;ASCII Art
+            </div>
+            <div class="card-body">
+              <p>This is the ASCII art displayed on launching many of the binary programs. Depending on the ASCII art you wish to use, you may need to provide different a version for Windows. The ASCII art generator over at <a href="http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20">patorjk.com</a> works well.</p>
+                <pre class="text-white bg-dark">
+                  <code>
+ const std::string windowsAsciiArt =
+      "\n _______         _   _       _____      _        \n"
+              "|__   __|       | | | |     / ____|    (_)      \n"
+              "   | |_   _ _ __| |_| | ___| |     ___  _ _ __  \n"
+              "   | | | | | '__| __| |/ _ \\ |    / _ \\| | '_ \\ \n"
+              "   | | |_| | |  | |_| |  __/ |___| (_) | | | | |\n"
+      "   |_|\\__ _|_|   \\__|_|\\___|\\_____\\___/|_|_| |_|\n";
+
+ const std::string nonWindowsAsciiArt =
+      "\n                                                                            \n"
+        "████████╗██╗  ██╗██████╗ ████████╗██╗    ██████╗ █████╗ █████╗ ██╗███╗   ██╗\n"
+        "╚══██╔══╝██║  ██║██╔══██╗╚══██╔══╝██║    ██╔═══╝██╔═══╝██╔══██╗██║████╗  ██║\n"
+        "   ██║   ██║  ██║██████╔╝   ██║   ██║    ████╗  ██║    ██║  ██║██║██╔██╗ ██║\n"
+        "   ██║   ██║  ██║██╔══██╗   ██║   ██║    ██╔═╝  ██║    ██║  ██║██║██║╚██╗██║\n"
+        "   ██║   ╚█████╔╝██║  ██║   ██║   ██████╗██████╗╚█████╗╚█████╔╝██║██║ ╚████║\n"
+        "   ╚═╝    ╚════╝ ╚═╝  ╚═╝   ╚═╝   ╚═════╝╚═════╝ ╚════╝ ╚════╝ ╚═╝╚═╝  ╚═══╝\n";</code>
+                </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br />
+
       <div class="row">
         <div class="col">
           <div class="card">
@@ -173,7 +207,7 @@
       </div>
 
       <br />
-            
+
       <div class="row">
         <div class="col">
           <div class="card">
@@ -193,7 +227,7 @@
       </div>
 
       <br />
-      
+
       <div class="row">
         <div class="col">
           <div class="card">
@@ -211,7 +245,7 @@
         </div>
       </div>
       <br />
-      
+
       <div class="row">
         <div class="col">
           <div class="card">
@@ -251,7 +285,7 @@
       </div>
 
       <br />
-      
+
       <div class="row">
         <div class="col">
           <div class="card">
@@ -265,7 +299,7 @@
   const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX                = 187000;
 
   ...
-  
+
   const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX              = 620000;
   const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V2           = 700000;
   const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V3           = 800000;</code>
@@ -275,7 +309,7 @@
         </div>
       </div>
 
-      <br />      
+      <br />
       <div class="row">
         <div class="col">
           <div class="card">
@@ -527,7 +561,7 @@
       </div>
 
       <br />
-      
+
       <div class="row">
         <div class="col">
           <div class="card">
@@ -545,7 +579,7 @@ const std::initializer_list<CheckpointData> CHECKPOINTS = {};</code>
         </div>
       </div>
 
-      <br />      
+      <br />
       <div class="row">
         <div class="col">
           <div class="card">
@@ -595,7 +629,7 @@ const std::initializer_list<CheckpointData> CHECKPOINTS = {};</code>
 
       <br />
 
-      
+
       <div class="row">
         <div class="col">
           <div class="card">
@@ -612,7 +646,7 @@ const std::initializer_list<CheckpointData> CHECKPOINTS = {};</code>
             </div>
           </div>
         </div>
-      </div>  
+      </div>
 
       <br />
 
@@ -661,7 +695,7 @@ const std::initializer_list<CheckpointData> CHECKPOINTS = {};</code>
           <p>This step turns the human readable code you just edited into machine executable programs. This step is easiest in Linux, but there are <a href="https://github.com/turtlecoin/turtlecoin#how-to-compile">instructions for Windows and Apple also.</a></p>
           <p>
             <em>
-          These instructions are meant for Ubuntu LTS, visit the link above for Windows and Apple instructions.    
+          These instructions are meant for Ubuntu LTS, visit the link above for Windows and Apple instructions.
             </em>
           </p>
 
@@ -757,7 +791,7 @@ const std::initializer_list<CheckpointData> CHECKPOINTS = {};</code>
       <div class="float-right" style="margin-bottom: 100px">
         <h6>Advanced Parameters</h6>
         <h3><a href="https://turtlecoin.github.io/fork/index2.html">Next Section >></a></h3>
-        
+
     </div>
     </div> <!-- main container -->
     <div class="fixed-bottom" style="background-color: #fff;">
